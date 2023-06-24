@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>SisGeo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>SisGeo: Georreferenciamento dos dados do SISMP INTEGRADO</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Descrição do Projeto</h2>
+            <p>Em abril de 2023, o CTIC extraiu, a nosso pedido, os dados do SISMP INTEGRADO para registros criminais de Piracicaba/SP a partir de 01/01/2022.</p>
+            <p>Com o uso de Python e bibliotecas apropriadas, populamos a base de dados com informações georreferenciadas, obtidas com a API do Tom Tom.</p>
+            <p>O dataset foi filtrado e serviu de base às plotagens de mapas de calor e das ocorrências, com filtros de assunto e dias da semana.</p>
+            <p>Os mapas com informações sensíveis foram compartilhados às autoridades locais para a definição de políticas públicas e ações específicas.</p>
+        </section>
+
+        <section>
+            <h2>Tecnologias principais</h2>
+            <ul>
+                <li>Python</li>
+                <li>Pandas</li>
+                <li>Folium</li>
+                <!-- Adicione mais itens conforme necessário -->
+            </ul>
+        </section>
+
+        <section>
+            <h2>Nossos mapas de calor</h2>
+            <a href="plotagens/heatmap_trafico.html" target="_blank">Tráfico de drogas</a>
+            <a href="plotagens/heatmap_violencia_domestica.html" target="_blank">Violência doméstica</a>
+        </section>
+
+        <section>
+            <h2>Cógido fonte</h2>
+            <a href="https://github.com/jespimentel/sis_geo" target="_blank">GitHub</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 José Eduardo de Souza Pimentel</p>
+    </footer>
+</body>
+</html>
